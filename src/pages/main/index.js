@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import api from '../../services/api';
+import { Link } from 'react-router-dom';
+
 import './style.css'
 
 export default class Main extends Component {
@@ -50,7 +52,8 @@ export default class Main extends Component {
                     <article key={product._id}>
                         <strong>{product.title}</strong>
                         <p>{product.description}</p>
-                        <a href="">Detalhes</a>
+
+                        <Link to={`/products/${product._id}`}>Detalhes</ Link>
                     </article>
                 ))}
                 <div className="actions">
