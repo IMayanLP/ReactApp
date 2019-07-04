@@ -1,3 +1,4 @@
+Aplicação iniciante utilizando conceitos basicos do REACTJS e ES6+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
